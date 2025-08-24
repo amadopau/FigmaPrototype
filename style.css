@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.pantallaBase, .pantalla2, .pantalla3{
+    width: 390px;
+    height: 844px;
+    background: #F4F9FF;
+    position: realtive;
+}
+
+.pantalla2 {
+    position: absolute;
+    left: 23%;
+    top: 0.8%;
+}
+
+.pantalla3 {
+    position: absolute;
+    left: 110%;
+    top: 0%;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 51px;
+}
+
+.picture {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    top: 8.7%;
+    left: 3%;
+    position: absolute;
+    background-image: url("Subtract.svg");
+}
+
+.name {
+    display: flex;
+    width: 207px;
+    height: 34px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--Primary, #ECE8F3);
+    top: 8.7%;
+    left: 6.5%;
+    position: absolute;
+    color: var(--Primary, #332D56);
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.review {
+    box-sizing: border-box;
+    width: 334px;
+    height: 110px;
+    flex-shrink: 0;
+    background: var(--Secondary, #DEC8FF);
+    position: absolute;
+    border-radius: 10px;
+    top: 15%;
+    left: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--Accent, #0D4E6E);
+}
+
+.head, .footer {
+    width: 390px;
+    height: 48px;
+    background: var(--Primary, #ECE8F3);
+    top: 10px;
+    position: absolute;
+    left: 9px;
+    display: flex;
+}
+
+.btnFlecha {
+    background-image: url("Icon_Blue (3).svg");
+    width: 12px;
+    height: 22px;
+    flex-shrink: 0;
+    top: 11.5%;   
+    position: absolute;
+    left: 6%;
+}
+
+.footer {
+    top: 81.1%;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 51px;
+}
+
+#pantalla2 {
+    top: 94.3%;
+    left: 0%;
+}
+
+#pantalla3 {
+    top: 94.3%;
+    left: 0%;
+}
+
+#head2 {
+    top: 0%;
+    left: 0%;
+}
+
+#head3 {
+    top: 0%;
+    left: 0%;
+
+}
+
+#btnFlecha2 {
+    top: 12%;
+}
+
+#picture2 {
+    left: 13%;
+    opacity: 0.1;
+}
+
+#name2 {
+    left: 30%;
+    opacity: 0.1;   
+}
+
+#review2, 
+#img, 
+#img2, 
+#img3, 
+#img4, 
+#btnNext2, 
+#start2, 
+#qualy2,
+#img3Pantalla3, 
+#img4Pantalla3,
+#img2Pantalla3, 
+#imgPantalla3,
+#review3,
+#qualy3,
+#picture3, 
+#name3  {
+    opacity: 0.1;
+    top: 16%;   
+}
+
+#picture3, #name3 {
+    top: 150%;
+    left: 20%;
+}
+
+#review3 {
+    top: 280%;
+}
+
+#name3 {
+    left: 30%;
+}
+
+#qualy3 {
+    top: 580%;
+}
+
+#img, #img2, #img3, #imgPantalla3, #img4Pantalla3 {
+    top: 43.7%;
+    left: 9%;
+}
+
+#img2, #img4 {
+    top: 63.5%;
+}
+
+#img3, #img4, #img3Pantalla3 {
+    left: 51%
+}
+
+#btnNext2 {
+    top: 84.3%;
+    left: 30%;
+}
+
+#qualy2 {
+    top: 33%;
+    left: 16.5%;
+}
+
+#imgPantalla3 {
+    top: 765%;
+}
+
+#img2Pantalla3, #img3Pantalla3 {
+    top: 765%;
+    left: 52%;
+}
+
+#img3Pantalla3, #img4Pantalla3 {
+    top: 1120%;
+}
+
+#btnNext3 {
+    top: 1300%;
+}
+
+#pub2 {
+    top: 630%;
+    border-radius: 10px;
+    background: #7BF84D;
+}
+
+.publicacion {
+    width: 308px;
+    height: 73px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--Secondary, #DEC8FF);
+    top: 35.9%;
+    left: 38px;
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    color: var(--Accent, #0D4E6E);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.charging {
+    background-image: url("Subtract\ \(1\).svg");
+    top: 59%;
+    left: 40%;
+    position: absolute;
+    width: 66px;
+    height: 65px;
+}
+
+.btnSearch {
+    background-image: url("Icon_Blue (2).svg");
+    width: 32px;
+    height: 33px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+#btnSearch3, #btnOptions3, #btnProfile3 {
+    top: 47%;
+}
+
+.btnOptions {
+    background-image: url("Icon_Blue (1).svg");
+    width: 32px;
+    height: 33px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.btnProfile {
+    background-image: url("Icon_Blue.svg");
+    width: 32px;
+    height: 33px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+
+.qualification, .starts, .btnNext {
+    width: 249px;
+    height: 16px;
+    align-content: center;
+    text-align-last: center;
+    background: #F4F9FF;
+    top: 29%;
+    position: absolute;
+    color: var(--Primary, #332D56);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 75px;
+    border-radius: 10px;
+    
+}
+
+.starts {
+    width: 95px;
+    height: 19.5px;
+    flex-shrink: 0;
+    top: 33%;
+    left: 8%;
+    background-image: url("Star 11.svg");
+    stroke-width: 1px;
+    stroke: var(--fill_icon, #222);
+}
+
+#start2 {
+    left: 37%;
+    top: 38%;
+}
+
+.image, .image2, .image3, .image4 {
+    width: 148.063px;
+    height: 149px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--Secondary, #DEC8FF);
+    position: absolute;
+    top: 38%;
+    left: 2.4%;
+    align-content: center;
+    text-align-last: center;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.image2, .image3 {
+    left: 11%;
+}
+
+.image3, .image4 {
+    top: 55%;
+}
+
+.btnNext {
+    background: var(--Accent, #0D4E6E);
+    width: 148px;
+    height: 48px;
+    flex-shrink: 0;
+    top: 73%;
+    left: 129px;
+
+    color: var(--Secondary, #DEC8FF);
+    text-align: center;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btnFlecha {
+    padding-left: 20px;
+    padding-top: 11px;
+}
+
+.historial {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
