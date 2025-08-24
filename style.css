@@ -31,7 +31,7 @@
     top: 8.7%;
     left: 3%;
     position: absolute;
-    background-image: url("Subtract.svg");
+    background-image: url("./img/Subtract.svg");
 }
 
 .name {
@@ -86,7 +86,7 @@
 }
 
 .btnFlecha {
-    background-image: url("Icon_Blue (3).svg");
+    background-image: url("./img/Icon_Blue (3).svg");
     width: 12px;
     height: 22px;
     flex-shrink: 0;
@@ -242,7 +242,7 @@
 }
 
 .charging {
-    background-image: url("Subtract\ \(1\).svg");
+    background-image: url("./img/Subtract\ \(1\).svg");
     top: 59%;
     left: 40%;
     position: absolute;
@@ -251,7 +251,7 @@
 }
 
 .btnSearch {
-    background-image: url("Icon_Blue (2).svg");
+    background-image: url("./img/Icon_Blue (2).svg");
     width: 32px;
     height: 33px;
     flex-shrink: 0;
@@ -263,7 +263,7 @@
 }
 
 .btnOptions {
-    background-image: url("Icon_Blue (1).svg");
+    background-image: url("./img/Icon_Blue (1).svg");
     width: 32px;
     height: 33px;
     flex-shrink: 0;
@@ -271,7 +271,7 @@
 }
 
 .btnProfile {
-    background-image: url("Icon_Blue.svg");
+    background-image: url("./img/Icon_Blue.svg");
     width: 32px;
     height: 33px;
     flex-shrink: 0;
@@ -304,7 +304,7 @@
     flex-shrink: 0;
     top: 33%;
     left: 8%;
-    background-image: url("Star 11.svg");
+    background-image: url("./img/Star 11.svg");
     stroke-width: 1px;
     stroke: var(--fill_icon, #222);
 }
